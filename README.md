@@ -57,15 +57,7 @@ python face_recognition_door.py
 
 Press the button to initiate face recognition.
 If the face is recognized, the servo motor will open the dam door.
-## File Structure
 
-├── datasets/                  # Folder containing the dataset of face images
-├── Trainer.yml                # Trained model for face recognition
-├── face_recognition_door.py    # Main script for face recognition and door control
-├── train_model.py             # Script to train the face recognizer
-├── collect_faces.py           # Script to collect face data
-├── requirements.txt           # Python dependencies
-├── README.md                  # Project documentation
 
 
 ## License
