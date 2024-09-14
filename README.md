@@ -37,31 +37,28 @@ This project is a **Face Recognition-based Door Unlock System** designed to enha
 
 2. **Navigate into the project directory**:
 
-bash
 cd face-recognition-dam-door
 
 
 3. **Install the required libraries:
 
-bash
 pip install -r requirements.txt
 
 
 4. **Connect the hardware (Raspberry Pi, camera module, servo motor, button, etc.).
 
 
-How to Run
+## How to Run
 Ensure all hardware is connected properly.
 Train the face recognizer using the provided scripts to collect and label images.
 Start the face recognition and door control process:
-bash
+
 python face_recognition_door.py
 
 Press the button to initiate face recognition.
 If the face is recognized, the servo motor will open the dam door.
-File Structure
+## File Structure
 
-bash
 ├── datasets/                  # Folder containing the dataset of face images
 ├── Trainer.yml                # Trained model for face recognition
 ├── face_recognition_door.py    # Main script for face recognition and door control
@@ -71,7 +68,7 @@ bash
 ├── README.md                  # Project documentation
 
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 
